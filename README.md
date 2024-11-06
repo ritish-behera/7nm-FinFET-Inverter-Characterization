@@ -1,12 +1,7 @@
 # Characterization of CMOS Inverter For ASAP 7nm FinFET Technology Through SPICE Simulations
 The primary objective of this project was to characterize an inverter design using ASAP 7nm FinFET technology. The project involved performing SPICE simulations to analyze the performance of the inverter in terms of key metrics such as propagation delay, power consumption, noise margin, gain and switching characteristics.
 
-# Tools Used:
-- ASAP 7nm PDK (Process Design Kit)
-- Ngspice for circuit simulations
-- Xschem for schematic capture
-
-## Final Datasheet for CMOS Inverter in ASAP 7nm Technology
+# Final Datasheet for CMOS Inverter in ASAP 7nm Technology
 
 | nfin | pfin | Vth (V) | Gain (V) | NML (V) | NMH (V) | Id (uA) | Power    | Prop. Delay (ps) | Output Resistance (MOhm) | Frequency (THz) |
 |------|------|---------|----------|---------|---------|---------|----------|------------------|--------------------------|-----------------|
@@ -24,6 +19,11 @@ The primary objective of this project was to characterize an inverter design usi
 |   13 |   15 |   0.354 |     6.43 |   0.186 |   0.179 |  224.16 | 2.35E-05 |         0.780879 |                 0.001579 |        0.640304 |
 |   12 |   16 |   0.364 |     6.44 |   0.202 |   0.162 |   219.8 | 2.32E-05 |         0.957851 |                 0.001656 |        0.522002 |
 |   11 |   13 |   0.356 |    6.426 |   0.188 |   0.175 |  191.93 | 2.01E-05 |         0.810269 |                 0.001855 |        0.617079 |
+
+# Tools Used:
+- ASAP 7nm PDK (Process Design Kit)
+- Ngspice for circuit simulations
+- Xschem for schematic capture
 
 
 # NGSPICE
