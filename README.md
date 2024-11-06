@@ -1,4 +1,4 @@
-# Characterization of Inverter Design Using ASAP 7nm FinFET Technology Through SPICE Simulations
+# Characterization of CMOS Inverter For ASAP 7nm FinFET Technology Through SPICE Simulations
 The primary objective of this project was to characterize an inverter design using ASAP 7nm FinFET technology. The project involved performing SPICE simulations to analyze the performance of the inverter in terms of key metrics such as propagation delay, power consumption, noise margin, gain and switching characteristics.
 
 # Tools Used:
@@ -6,7 +6,7 @@ The primary objective of this project was to characterize an inverter design usi
 - Ngspice for circuit simulations
 - Xschem for schematic capture
 
-## Datasheet for Characterization of CMOS Inverter for ASAP 7nm
+## Final Datasheet for CMOS Inverter in ASAP 7nm Technology
 
 | nfin | pfin | Vth (V) | Gain (V) | NML (V) | NMH (V) | Id (uA) | Power    | Prop. Delay (ps) | Output Resistance (MOhm) | Frequency (THz) |
 |------|------|---------|----------|---------|---------|---------|----------|------------------|--------------------------|-----------------|
