@@ -1,6 +1,18 @@
 # Characterization of CMOS Inverter For ASAP 7nm FinFET Technology Through SPICE Simulations
 The primary objective of this project was to characterize an inverter design using ASAP 7nm FinFET technology. The project involved performing SPICE simulations to analyze the performance of the inverter in terms of key metrics such as propagation delay, power consumption, noise margin, gain and switching characteristics.
 
+<details>
+  <summary>Click to expand!</summary>
+
+  Here is the content that will be hidden until you click "expand."
+  You can add text, code, lists, or any other markdown here.
+
+  ```python
+  # Example code block
+  print("Hello, world!")
+```
+</details>
+
 # Final Datasheet for CMOS Inverter in ASAP 7nm Technology
 
 | nfin | pfin | Vth (V) | Gain (V) | NML (V) | NMH (V) | Id (uA) | Power    | Prop. Delay (ps) | Output Resistance (MOhm) | Frequency (THz) |
@@ -106,7 +118,9 @@ After installing NGSPICE and XSCHEM and setting up the ASAP 7nm PDK, the charact
 
 The generated SPICE deck for nmos and pmos characteristics from the XSCHEM schematic is as follows:
 
-NMOS
+<details>
+  <summary>NMOS SPICE Deck</summary>
+
 ```
 ** sch_path: /home/sudo-ritish/Desktop/asap_7nm_Xschem/nfet_char.sch
 **.subckt nfet_char
@@ -207,6 +221,11 @@ pre_osdi /home/sudo-ritish/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 **** end user architecture code
 .end
 ```
+</details>
+
+<details>
+  <summary>PMOS SPICE Deck</summary>
+	
 PMOS
 ```
 ** sch_path: /home/sudo-ritish/Desktop/asap_7nm_Xschem/pfet_char.sch
@@ -309,6 +328,8 @@ pre_osdi /home/sudo-ritish/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 **** end user architecture code
 .end
 ```
+</details>
+
 The output plot:
 
 NMOS
