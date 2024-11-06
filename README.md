@@ -21,8 +21,8 @@ The primary objective of this project was to characterize an inverter design usi
 |   11 |   13 |   0.356 |    6.426 |   0.188 |   0.175 |  191.93 | 2.01E-05 |         0.810269 |                 0.001855 |        0.617079 |
 
 # Tools Used:
-- ASAP 7nm PDK (Process Design Kit)
-- Ngspice for circuit simulations
+- ASAP 7nm PDK
+- Ngspice for circuit simulations (SPICE)
 - Xschem for schematic capture
 
 
